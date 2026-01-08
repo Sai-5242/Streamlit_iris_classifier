@@ -10,7 +10,7 @@ st.write(
 )
 
 # Load model
-model = joblib.load('models\model.pkl')
+model = joblib.load('models/model.pkl')
 
 # Sidebar inputs
 st.sidebar.header("Input Features")
